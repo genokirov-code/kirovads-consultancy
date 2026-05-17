@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "why-facebook-ads-waste-money",
+    "title": "Why Your Facebook Ads Are Wasting Money (And How to Fix It)",
+    "title_bg": "Защо Facebook рекламите ви хабят пари (и как да го поправите)",
+    "excerpt": "Most businesses running Meta Ads are losing 40–60% of their budget to broken tracking, wrong campaign structure, and platform suggestions that prioritise Meta's revenue over yours.",
+    "excerpt_bg": "Повечето бизнеси, управляващи Meta Ads, губят 40–60% от бюджета си заради счупено проследяване, грешна структура на кампании и платформени предложения, приоритизиращи приходите на Meta.",
+    "category": "Meta Ads",
+    "date": "2025-04-15",
+    "readTime": "7 min read",
+    "published": true,
+    "author": "Geno Kirov",
+    "image": null
+  },
+  {
+    "slug": "tracking-foundation-before-ads",
+    "title": "The Marketing Foundation Most Businesses Skip: Tracking Setup",
+    "title_bg": "Маркетинговата основа, която повечето бизнеси пропускат: Настройка на проследяване",
+    "excerpt": "Before you spend a single euro on ads, you need accurate tracking. GTM, GA4, Meta Pixel, and Conversions API — explained in plain language, and why each one matters.",
+    "excerpt_bg": "Преди да похарчите евро за реклами, ви трябва точно проследяване. GTM, GA4, Meta Pixel и Conversions API — обяснено на разбираем език и защо всяко от тях е важно.",
+    "category": "Tracking & Analytics",
+    "date": "2025-04-28",
+    "readTime": "9 min read",
+    "published": true,
+    "author": "Geno Kirov",
+    "image": null
+  },
+  {
+    "slug": "ai-marketing-2025",
+    "title": "How AI is Changing Digital Marketing in 2025 (And What to Do About It)",
+    "title_bg": "Как AI промени дигиталния маркетинг през 2025 (и какво да правите)",
+    "excerpt": "AI isn't replacing marketers — it's replacing marketers who don't use AI. Here's how to practically apply AI to your marketing strategy, from LTV prediction to creative production.",
+    "excerpt_bg": "AI не замества маркетолозите — замества маркетолозите, които не го използват. Как практически да приложите AI в маркетинговата стратегия — от прогноза на LTV до производство на креативи.",
+    "category": "AI Marketing",
+    "date": "2025-05-06",
+    "readTime": "8 min read",
+    "published": true,
+    "author": "Geno Kirov",
+    "image": null
+  }
+]

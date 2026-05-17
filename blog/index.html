@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Marketing Insights, Tracking Guides &amp; Growth Strategy | KirovAds</title>
+  <meta name="description" content="Practical marketing articles by Geno Kirov: Meta Ads, Google Ads, tracking setup, AI marketing, ROAS improvement, and growth strategy for online businesses.">
+  <meta name="author" content="Geno Kirov">
+  <link rel="canonical" href="https://kirovads.com/blog/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kirovads.com/blog/">
+  <meta property="og:title" content="Blog — KirovAds Marketing Insights">
+  <meta property="og:description" content="Practical marketing articles: Meta Ads, Google Ads, tracking setup, AI marketing, ROAS improvement.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}var cc=localStorage.getItem("kirovads_cookie_consent");gtag("consent","default",{"analytics_storage":cc==="granted"?"granted":"denied","ad_storage":cc==="granted"?"granted":"denied","ad_user_data":cc==="granted"?"granted":"denied","ad_personalization":cc==="granted"?"granted":"denied","wait_for_update":500});</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TP88RP2F');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "KirovAds Blog",
+    "description": "Practical marketing insights on Meta Ads, Google Ads, tracking setup, AI marketing, and growth strategy.",
+    "url": "https://kirovads.com/blog/",
+    "author": { "@id": "https://kirovads.com/#person" },
+    "publisher": { "@id": "https://kirovads.com/#business" }
+  }
+  </script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP88RP2F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="nav-placeholder"></div>
+
+<!-- HERO -->
+<section class="page-hero-v2 page-hero-v2--compact" aria-label="Blog hero">
+  <div class="container">
+    <div class="page-hero-v2__eyebrow"
+         data-en="Insights &amp; Guides" data-bg="Прозрения и ръководства">Insights &amp; Guides</div>
+    <h1 class="page-hero-v2__title"
+        data-en="Marketing That <span>Actually Works</span>"
+        data-bg="Маркетинг, който <span>наистина работи</span>">
+      Marketing That <span>Actually Works</span>
+    </h1>
+    <p class="page-hero-v2__subtitle"
+       data-en="Practical articles on Meta Ads, Google Ads, tracking setup, AI marketing, and growth strategy. No fluff — just what works."
+       data-bg="Практически статии за Meta Ads, Google Ads, настройка на проследяване, AI маркетинг и стратегии за растеж. Без излишни приказки — само това, което работи.">
+      Practical articles on Meta Ads, Google Ads, tracking setup, AI marketing, and growth strategy. No fluff — just what works.
+    </p>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="section" aria-labelledby="blog-grid-heading">
+  <div class="container">
+    <h2 id="blog-grid-heading" class="mb-5"
+        data-en="All Articles" data-bg="Всички статии">All Articles</h2>
+    <div class="blog-grid" id="blogGrid">
+      <!-- Loaded by JS -->
+      <div style="grid-column:1/-1;text-align:center;padding:4rem;color:var(--gray-400)">
+        <div class="loading-spinner" style="margin:0 auto 1rem;border-color:var(--gray-200);border-top-color:var(--blue-500)"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" aria-label="Call to action">
+  <div class="container">
+    <h2 data-en="Ready to implement?" data-bg="Готови да внедрите?">Ready to implement?</h2>
+    <p data-en="Reading about marketing is good. Having someone set it up correctly for your business is better."
+       data-bg="Четенето за маркетинг е добро. Наличието на някой, който го настройва правилно за вашия бизнес, е по-добро.">
+      Reading about marketing is good. Having someone set it up correctly for your business is better.
+    </p>
+    <div class="flex-gap">
+      <a href="../contact.html" class="btn btn-white btn-lg"
+         data-en="Book Free Audit" data-bg="Запази безплатен одит"
+         onclick="gtmEvent('cta_click',{location:'blog_cta',label:'Book Free Audit'})">Book Free Audit</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/main.js"></script>
+<script>
+  initComponents('blog');
+
+  /* Load all posts into blog grid */
+  async function loadAllPosts() {
+    const grid = document.getElementById('blogGrid');
+    try {
+      const res = await fetch('posts.json');
+      const posts = await res.json();
+      const published = posts.filter(p => p.published);
+
+      if (!published.length) {
+        grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;color:var(--gray-400)" data-en="Articles coming soon." data-bg="Статии скоро.">Articles coming soon.</p>';
+        return;
+      }
+
+      grid.innerHTML = published.map(post => `
+        <article class="blog-card fade-in">
+          <div class="blog-card__img">
+            <div class="img-placeholder" style="min-height:200px">
+              <svg width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" opacity="0.3">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14
+                     M8 11a2 2 0 100-4 2 2 0 000 4z"/>
+              </svg>
+              <span style="font-size:.8rem" data-en="[Post Image]" data-bg="[Снимка на публикацията]">[Post Image]</span>
+            </div>
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__category">${post.category}</div>
+            <h2 class="blog-card__title" style="font-size:1.1rem">
+              <a href="posts/${post.slug}.html" style="color:inherit">${post.title}</a>
+            </h2>
+            <p class="blog-card__excerpt">${post.excerpt}</p>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="blog-card__meta">
+                <span>${post.date}</span>
+                <span>·</span>
+                <span>${post.readTime}</span>
+              </div>
+              <a href="posts/${post.slug}.html" class="blog-card__read-more"
+                 data-en="Read →" data-bg="Прочети →"
+                 onclick="gtmEvent('blog_click',{post:'${post.slug}',location:'blog_listing'})">Read →</a>
+            </div>
+          </div>
+        </article>
+      `).join('');
+
+      applyLanguage(currentLang);
+      initScrollAnimations();
+    } catch(e) {
+      grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;color:var(--gray-400)">Failed to load articles.</p>';
+    }
+  }
+
+  loadAllPosts();
+</script>
+</body>
+</html>
