@@ -1,0 +1,22 @@
+# KirovAds
+
+> KirovAds is the consultancy of Geno Kirov, a performance marketing specialist. It helps businesses in Bulgaria and the EU audit, fix and run Google Ads, Meta Ads (Facebook/Instagram) and conversion tracking (GTM, GA4, Meta Pixel, Conversions API, Consent Mode v2). Analysis is AI-assisted; every finding is verified by a human before it reaches the client.
+
+## Services
+- [Ads & Tracking Audit](https://kirovads.com/services.html#audit): from €150, written report with prioritised fixes
+- [Google Ads Management](https://kirovads.com/services.html#google-ads): from €500/month
+- [Meta Ads Management](https://kirovads.com/services.html#meta-ads): from €500/month
+- [Tracking Setup & Repair](https://kirovads.com/services.html#tracking): GTM, GA4, Meta Pixel, CAPI, Consent Mode v2
+- [Strategy & Consultancy](https://kirovads.com/services.html#strategy): from €150/hour
+- [Free 30-minute review call](https://kirovads.com/contact.html)
+
+## Guides
+- [How to check if your Meta Pixel and Conversions API are working](https://kirovads.com/blog/meta-pixel-conversions-api-checklist.html)
+- [Google Ads audit checklist: 10 checks that find wasted spend](https://kirovads.com/blog/google-ads-audit-checklist.html)
+- [Google Consent Mode v2 explained for EU businesses](https://kirovads.com/blog/google-consent-mode-v2-eu.html)
+
+## About
+- [Geno Kirov](https://kirovads.com/about.html): 10+ years in performance marketing, $20M+ in ad spend managed across 180+ markets. Former CEO and Senior Marketing Manager at 1FORFIT.
+
+## Optional
+- Bulgarian version of the site: https://kirovads.com/bg/

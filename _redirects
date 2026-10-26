@@ -1,0 +1,10 @@
+# Netlify / Cloudflare Pages redirects (permanent)
+# Old 2025 blog posts → closest new post
+/blog/posts/why-facebook-ads-waste-money.html     /blog/meta-pixel-conversions-api-checklist.html  301
+/blog/posts/why-facebook-ads-waste-money          /blog/meta-pixel-conversions-api-checklist.html  301
+/blog/posts/tracking-foundation-before-ads.html   /blog/google-consent-mode-v2-eu.html             301
+/blog/posts/tracking-foundation-before-ads        /blog/google-consent-mode-v2-eu.html             301
+/blog/posts/ai-marketing-2025.html                /blog/google-ads-audit-checklist.html            301
+/blog/posts/ai-marketing-2025                     /blog/google-ads-audit-checklist.html            301
+/blog/posts/*                                     /blog/                                           301
+/blog/post.html                                   /blog/                                           301

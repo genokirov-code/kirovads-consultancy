@@ -1,41 +1,65 @@
 [
   {
-    "slug": "why-facebook-ads-waste-money",
-    "title": "Why Your Facebook Ads Are Wasting Money (And How to Fix It)",
-    "title_bg": "Защо Facebook рекламите ви хабят пари (и как да го поправите)",
-    "excerpt": "Most businesses running Meta Ads are losing 40–60% of their budget to broken tracking, wrong campaign structure, and platform suggestions that prioritise Meta's revenue over yours.",
-    "excerpt_bg": "Повечето бизнеси, управляващи Meta Ads, губят 40–60% от бюджета си заради счупено проследяване, грешна структура на кампании и платформени предложения, приоритизиращи приходите на Meta.",
-    "category": "Meta Ads",
-    "date": "2025-04-15",
-    "readTime": "7 min read",
+    "id": "meta-pixel-capi",
     "published": true,
-    "author": "Geno Kirov",
-    "image": null
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
+    "image": "assets/images/blog/meta-pixel-capi.webp",
+    "en": {
+      "title": "How to check if your Meta Pixel and Conversions API are working: a 7-step checklist",
+      "excerpt": "A practical 7-step checklist to verify your Meta Pixel and Conversions API: test events, deduplication, Event Match Quality, consent and real order matching.",
+      "category": "Tracking",
+      "readTime": "7 min read",
+      "url": "/blog/meta-pixel-conversions-api-checklist.html"
+    },
+    "bg": {
+      "title": "Как да проверите дали Meta Pixel и Conversions API работят: чек-лист в 7 стъпки",
+      "excerpt": "Практичен чек-лист в 7 стъпки за проверка на Meta Pixel и Conversions API: тестови събития, дедупликация, Event Match Quality, съгласие и сверка с поръчките.",
+      "category": "Проследяване",
+      "readTime": "7 мин четене",
+      "url": "/bg/blog/meta-pixel-conversions-api-proverka.html"
+    }
   },
   {
-    "slug": "tracking-foundation-before-ads",
-    "title": "The Marketing Foundation Most Businesses Skip: Tracking Setup",
-    "title_bg": "Маркетинговата основа, която повечето бизнеси пропускат: Настройка на проследяване",
-    "excerpt": "Before you spend a single euro on ads, you need accurate tracking. GTM, GA4, Meta Pixel, and Conversions API — explained in plain language, and why each one matters.",
-    "excerpt_bg": "Преди да похарчите евро за реклами, ви трябва точно проследяване. GTM, GA4, Meta Pixel и Conversions API — обяснено на разбираем език и защо всяко от тях е важно.",
-    "category": "Tracking & Analytics",
-    "date": "2025-04-28",
-    "readTime": "9 min read",
+    "id": "google-ads-audit",
     "published": true,
-    "author": "Geno Kirov",
-    "image": null
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
+    "image": "assets/images/blog/google-ads-audit.webp",
+    "en": {
+      "title": "Google Ads audit checklist: 10 checks that find wasted spend",
+      "excerpt": "A practical Google Ads audit checklist for small and mid-sized businesses: conversion tracking, search terms, location settings, Search Partners, PMax and bidding.",
+      "category": "Google Ads",
+      "readTime": "8 min read",
+      "url": "/blog/google-ads-audit-checklist.html"
+    },
+    "bg": {
+      "title": "Одит на Google Ads: 10 проверки, които откриват загубен бюджет",
+      "excerpt": "Практичен чек-лист за одит на Google Ads за малки и средни бизнеси: проследяване на конверсии, търсения, локации, Search Partners, PMax и наддаване.",
+      "category": "Google Ads",
+      "readTime": "8 мин четене",
+      "url": "/bg/blog/google-ads-odit-cheklist.html"
+    }
   },
   {
-    "slug": "ai-marketing-2025",
-    "title": "How AI is Changing Digital Marketing in 2025 (And What to Do About It)",
-    "title_bg": "Как AI промени дигиталния маркетинг през 2025 (и какво да правите)",
-    "excerpt": "AI isn't replacing marketers — it's replacing marketers who don't use AI. Here's how to practically apply AI to your marketing strategy, from LTV prediction to creative production.",
-    "excerpt_bg": "AI не замества маркетолозите — замества маркетолозите, които не го използват. Как практически да приложите AI в маркетинговата стратегия — от прогноза на LTV до производство на креативи.",
-    "category": "AI Marketing",
-    "date": "2025-05-06",
-    "readTime": "8 min read",
+    "id": "consent-mode-v2",
     "published": true,
-    "author": "Geno Kirov",
-    "image": null
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
+    "image": "assets/images/blog/google-consent-mode-v2.jpg",
+    "en": {
+      "title": "Google Consent Mode v2 explained for EU businesses",
+      "excerpt": "What Google Consent Mode v2 is, why EU advertisers need it, the difference between Basic and Advanced mode, and how to check if it's working on your website.",
+      "category": "Tracking · EU",
+      "readTime": "7 min read",
+      "url": "/blog/google-consent-mode-v2-eu.html"
+    },
+    "bg": {
+      "title": "Google Consent Mode v2 — обяснено за бизнеси в ЕС",
+      "excerpt": "Какво е Google Consent Mode v2, защо рекламодателите в ЕС се нуждаят от него, разлика между Basic и Advanced и как да проверите дали работи на сайта ви.",
+      "category": "Проследяване · ЕС",
+      "readTime": "7 мин четене",
+      "url": "/bg/blog/google-consent-mode-v2.html"
+    }
   }
 ]

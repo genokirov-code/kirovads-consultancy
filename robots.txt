@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Disallow: /bg/thank-you.html
+Disallow: /content/
+Disallow: /build.py
+
+# AI crawlers are welcome (GEO — Generative Engine Optimisation)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://kirovads.com/sitemap.xml
