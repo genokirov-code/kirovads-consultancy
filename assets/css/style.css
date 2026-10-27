@@ -286,11 +286,14 @@ p { line-height: 1.75; }
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background: var(--navy-900);
-  z-index: 999;
+  z-index: 1001; /* above the fixed top bar, so its language switch and hamburger don't cover the menu */
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-content: safe center;
   gap: 2.5rem;
+  padding: 5rem 1.5rem 2rem;
+  overflow-y: auto;
 }
 .nav__mobile.open { display: flex; }
 .nav__mobile-link {
@@ -301,8 +304,13 @@ p { line-height: 1.75; }
 }
 .nav__mobile-close {
   position: absolute;
-  top: 1.5rem;
-  right: var(--container-pad);
+  top: 1rem;
+  right: calc(var(--container-pad) - 0.5rem);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   color: var(--white);
   cursor: pointer;
