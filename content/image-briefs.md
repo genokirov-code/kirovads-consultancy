@@ -6,10 +6,10 @@ the image in the page source.
 
 | Page / section | Status | Brief |
 |---|---|---|
-| Home · Hero | Has image (`index_main_heather_geno_presentation_v2.png`) | Professional portrait of Geno, natural light, dark-blue background matching the site, looking at camera, relaxed and approachable. |
-| Home · The real problem | Has image (`index_graphics_section_roi_geno.png`) | Clean dashboard mock-up: left side messy (red warnings, duplicate conversion counts), right side clean (green ticks, one clear ROAS line trending up). |
+| Home · Hero | Has image (`home-hero-geno-portrait.jpg`) | Professional portrait of Geno, natural light, dark-blue background matching the site, looking at camera, relaxed and approachable. |
+| Home · The real problem | Has image (`home-dashboard-chaos-to-clarity.jpg`) | Clean dashboard mock-up: left side messy (red warnings, duplicate conversion counts), right side clean (green ticks, one clear ROAS line trending up). |
 | Home · How I work (new) | No image slot yet | Simple 3-step diagram: AI icon scanning data → magnifying glass with a person/check mark → one-page checklist. |
-| Home · About preview | Placeholder | Photo of Geno. |
+| Home · About preview | Has image (`index_graphics_section_roi_geno.png`) | Photo of Geno. |
 | About · Hero | Placeholder | Portrait in a working setting (laptop, notebook), warm natural light. |
 | About · Chapter 01 (London) | Placeholder | London street scene or university setting, muted tones. (`graduation-geno-london.jpg` is in assets/images and could be used.) |
 | About · Chapter 02 (Agency) | Placeholder | (`agency-section-about-page.jpeg` is in assets/images and could be used.) |
