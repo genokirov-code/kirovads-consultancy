@@ -57,7 +57,7 @@ function getNavHTML(activePage) {
                data-en="Book a free call" data-bg="Безплатен разговор"
                onclick="gtmEvent('cta_click',{location:'nav',label:'Book free call'})">Book a free call</a>
           </div>
-          <div class="nav__hamburger" id="navHamburger" onclick="openMobileNav()" aria-label="Open menu">
+          <div class="nav__hamburger" id="navHamburger" onclick="openMobileNav()" role="button" tabindex="0" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openMobileNav();}">
             <span></span><span></span><span></span>
           </div>
         </div>
@@ -407,9 +407,16 @@ function initComponents(activePage, options = {}) {
 
 function openMobileNav() {
   document.getElementById('mobileNav').classList.add('open');
+  document.getElementById('navHamburger').setAttribute('aria-expanded', 'true');
   document.body.style.overflow = 'hidden';
+  document.querySelector('.nav__mobile-close').focus();
 }
 function closeMobileNav() {
   document.getElementById('mobileNav').classList.remove('open');
+  document.getElementById('navHamburger').setAttribute('aria-expanded', 'false');
   document.body.style.overflow = '';
 }
+document.addEventListener('keydown', e => {
+  const menu = document.getElementById('mobileNav');
+  if (e.key === 'Escape' && menu && menu.classList.contains('open')) closeMobileNav();
+});
